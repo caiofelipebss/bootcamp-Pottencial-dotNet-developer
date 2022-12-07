@@ -1,23 +1,61 @@
 ﻿using ExemploFundamentos.Models;
 
+bool choveu = false;
+bool estaTarde = false;
 
-Console.WriteLine("Digite uma letra: ");
-var letra = Console.ReadLine().ToUpper();
-
-switch (letra)
+if (!choveu && !estaTarde)
 {
-    case "A":
-    case "B":
-    case "C":
-    case "D":
-    case "E":
-        Console.WriteLine("Vogal! ");
-        break;
-
-    default: 
-        Console.WriteLine("Não é uma vogal!");
-        break;
+    Console.WriteLine("vou pedalar!");
 }
+else
+{
+    Console.WriteLine("Não vou pedalar!");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Console.WriteLine("Digite uma letra: ");
+//var letra = Console.ReadLine().ToUpper();
+
+//switch (letra)
+//{
+//    case "A":
+//    case "B":
+//    case "C":
+//    case "D":
+//    case "E":
+//        Console.WriteLine("Vogal! ");
+//        break;
+
+//    default: 
+//        Console.WriteLine("Não é uma vogal!");
+//        break;
+//}
 
 
 
