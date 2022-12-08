@@ -1,16 +1,12 @@
 ﻿using ExemploFundamentos.Models;
 
-bool choveu = false;
-bool estaTarde = false;
+var calc = new Calculadora();
 
-if (!choveu && !estaTarde)
-{
-    Console.WriteLine("vou pedalar!");
-}
-else
-{
-    Console.WriteLine("Não vou pedalar!");
-}
+calc.Resto(5, 3);
+
+calc.Potencia(4, 2);
+
+calc.Cosseno(30);
 
 
 
@@ -26,11 +22,17 @@ else
 
 
 
+//bool choveu = false;
+//bool estaTarde = false;
 
-
-
-
-
+//if (!choveu && !estaTarde)
+//{
+//    Console.WriteLine("vou pedalar!");
+//}
+//else
+//{
+//    Console.WriteLine("Não vou pedalar!");
+//}
 
 
 
@@ -56,41 +58,7 @@ else
 //        Console.WriteLine("Não é uma vogal!");
 //        break;
 //}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 //int quantidadeEstoque = 3;
