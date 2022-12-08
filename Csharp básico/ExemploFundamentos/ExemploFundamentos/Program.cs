@@ -8,6 +8,7 @@ calc.Potencia(4, 2);
 
 calc.Cosseno(30);
 
+calc.RaizQuadrada(9);
 
 
 
